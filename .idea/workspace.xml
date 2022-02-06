@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="69d5df64-7042-425a-9595-bd09c09e8f58" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/service/ApiRequestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/restapi/ItemRestApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/restapi/ItemRestApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/restapi/UserRestApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/restapi/UserRestApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/service/ApiResponseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/service/ApiResponseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/service/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/service/JwtTokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/service/JwtTokenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/verticle/WebVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/verticle/WebVerticle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jakubartlomiej/vertxRecruitmentTask/TestWebVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jakubartlomiej/vertxRecruitmentTask/TestWebVerticle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jakubartlomiej/vertxRecruitmentTask/service/ItemServiceTest.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/config/config.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/verticle/WebVerticle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/configuration/BrokerConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/configuration/ConfigLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/restapi/UserRestApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/jakubartlomiej/vertxRecruitmentTask/TestWebVerticle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="20" column="79" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/service/ApiRequestService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/service/ItemService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/resurce/UserResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/configuration/BrokerConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/RestApiVerticle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/restapi/UserRestApi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/WebVerticle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/service/ApiRequestService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/verticle/MainVerticle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/service/JwtTokenService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/service/ValidationBodyService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/restapi/ItemRestApi.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/verticle/WebVerticle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/service/ApiResponseService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jakubartlomiej/vertxRecruitmentTask/restapi/UserRestApiTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jakubartlomiej/vertxRecruitmentTask/service/ItemServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jakubartlomiej/vertxRecruitmentTask/TestWebVerticle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/service/ItemService.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="11" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="vertxRecruitmentTask" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1" />
+    <option name="y" value="596" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="vertxRecruitmentTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vertx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vertxRecruitmentTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vertx" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vertxRecruitmentTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vertx" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vertxRecruitmentTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vertx" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vertxRecruitmentTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vertx" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vertxRecruitmentTask" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vertxRecruitmentTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vertx" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vertxRecruitmentTask" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vertxRecruitmentTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vertx" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vertxRecruitmentTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vertx" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vertxRecruitmentTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vertx" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="vertxRecruitmentTask" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.jakubartlomiej.vertxRecruitmentTask.restapi" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.TestWebVerticle.return_all">
+    <configuration name="TestWebVerticle.return_all" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vertxRecruitmentTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jakubartlomiej.vertxRecruitmentTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jakubartlomiej.vertxRecruitmentTask" />
+      <option name="MAIN_CLASS_NAME" value="com.jakubartlomiej.vertxRecruitmentTask.TestWebVerticle" />
+      <option name="METHOD_NAME" value="return_all(io.vertx.core.Vertx,io.vertx.junit5.VertxTestContext)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWebVerticle.verticle_deployed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vertxRecruitmentTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jakubartlomiej.vertxRecruitmentTask.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jakubartlomiej.vertxRecruitmentTask" />
+      <option name="MAIN_CLASS_NAME" value="com.jakubartlomiej.vertxRecruitmentTask.TestWebVerticle" />
+      <option name="METHOD_NAME" value="verticle_deployed(io.vertx.core.Vertx,io.vertx.junit5.VertxTestContext)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRestApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vertxRecruitmentTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jakubartlomiej.vertxRecruitmentTask.restapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jakubartlomiej.vertxRecruitmentTask.restapi" />
+      <option name="MAIN_CLASS_NAME" value="com.jakubartlomiej.vertxRecruitmentTask.restapi.UserRestApiTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRestApiTest.shouldReturnBadRequestWhenBodyEmpty (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vertxRecruitmentTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jakubartlomiej.vertxRecruitmentTask.restapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jakubartlomiej.vertxRecruitmentTask.restapi" />
+      <option name="MAIN_CLASS_NAME" value="com.jakubartlomiej.vertxRecruitmentTask.restapi.UserRestApiTest" />
+      <option name="METHOD_NAME" value="shouldReturnBadRequestWhenBodyEmpty(io.vertx.ext.web.client.WebClient,io.vertx.junit5.VertxTestContext)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRestApiTest.shouldReturnBadRequestWhenBodyEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="vertxRecruitmentTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jakubartlomiej.vertxRecruitmentTask.restapi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jakubartlomiej.vertxRecruitmentTask.restapi" />
+      <option name="MAIN_CLASS_NAME" value="com.jakubartlomiej.vertxRecruitmentTask.restapi.UserRestApiTest" />
+      <option name="METHOD_NAME" value="shouldReturnBadRequestWhenBodyEmpty(io.vertx.core.Vertx,io.vertx.junit5.VertxTestContext)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestWebVerticle.return_all" />
+        <item itemvalue="JUnit.TestWebVerticle.verticle_deployed" />
+        <item itemvalue="JUnit.UserRestApiTest.shouldReturnBadRequestWhenBodyEmpty" />
+        <item itemvalue="JUnit.UserRestApiTest.shouldReturnBadRequestWhenBodyEmpty (1)" />
+        <item itemvalue="JUnit.UserRestApiTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="69d5df64-7042-425a-9595-bd09c09e8f58" name="Default Changelist" comment="" />
+      <created>1643754261489</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643754261489</updated>
+      <workItem from="1643754263273" duration="3508000" />
+      <workItem from="1643840060232" duration="11266000" />
+      <workItem from="1644154375445" duration="15539000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="UserRestApiTest_shouldReturnBadRequestWhenBodyEmpty_(1) - 2022.02.06 at 18h 47m 59s.xml">
+      <configuration name="UserRestApiTest.shouldReturnBadRequestWhenBodyEmpty (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserRestApiTest_shouldReturnBadRequestWhenBodyEmpty_(1) - 2022.02.06 at 18h 48m 36s.xml">
+      <configuration name="UserRestApiTest.shouldReturnBadRequestWhenBodyEmpty (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserRestApiTest_shouldReturnBadRequestWhenBodyEmpty_(1) - 2022.02.06 at 18h 49m 01s.xml">
+      <configuration name="UserRestApiTest.shouldReturnBadRequestWhenBodyEmpty (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserRestApiTest_shouldReturnBadRequestWhenBodyEmpty - 2022.02.06 at 18h 53m 28s.xml">
+      <configuration name="UserRestApiTest.shouldReturnBadRequestWhenBodyEmpty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserRestApiTest_shouldReturnBadRequestWhenBodyEmpty - 2022.02.06 at 18h 54m 13s.xml">
+      <configuration name="UserRestApiTest.shouldReturnBadRequestWhenBodyEmpty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestWebVerticle_return_all - 2022.02.06 at 18h 56m 27s.xml">
+      <configuration name="TestWebVerticle.return_all" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestWebVerticle_verticle_deployed - 2022.02.06 at 18h 57m 10s.xml">
+      <configuration name="TestWebVerticle.verticle_deployed" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestWebVerticle_return_all - 2022.02.06 at 18h 58m 23s.xml">
+      <configuration name="TestWebVerticle.return_all" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestWebVerticle_return_all - 2022.02.06 at 19h 01m 42s.xml">
+      <configuration name="TestWebVerticle.return_all" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestWebVerticle_return_all - 2022.02.06 at 19h 06m 37s.xml">
+      <configuration name="TestWebVerticle.return_all" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="30313000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19349681" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27193934" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869988" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32827735" />
+      <window_info anchor="right" id="Bean Validation" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Maven" order="7" visible="true" weight="0.05970149" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/jakubartlomiej/vertxRecruitmentTask/service/ItemServiceTest.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-mongo-client/4.2.4/vertx-mongo-client-4.2.4.jar!/io/vertx/ext/mongo/MongoClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/RestApiVerticle.java" />
+    <entry file="jar://C:/Program Files/Microsoft/jdk-11.0.13.8-hotspot/lib/src.zip!/java.base/java/util/concurrent/atomic/AtomicBoolean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/resurce/UserResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-32">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-mongo-client/4.2.4/vertx-mongo-client-4.2.4.jar!/io/vertx/ext/mongo/impl/MongoClientImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="398" selection-start-line="398" selection-end-line="398" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Microsoft/jdk-11.0.13.8-hotspot/lib/src.zip!/java.base/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="828" selection-start-line="828" selection-end-line="828" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-auth-jwt/4.2.4/vertx-auth-jwt-4.2.4.jar!/io/vertx/ext/auth/jwt/JWTAuth.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/resurce/ItemResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/MainVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/WebVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="82" column="3" selection-start-line="82" selection-start-column="3" selection-end-line="82" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-json-schema/4.2.4/vertx-json-schema-4.2.4.jar!/io/vertx/json/schema/SchemaParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="50" column="24" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web-validation/4.2.4/vertx-web-validation-4.2.4.jar!/io/vertx/ext/web/validation/RequestPredicate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/4.2.4/vertx-web-4.2.4.jar!/io/vertx/ext/web/impl/RoutingContextImplBase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="152" selection-start-line="152" selection-end-line="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/4.2.4/vertx-web-4.2.4.jar!/io/vertx/ext/web/impl/RoutingContextImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web-validation/4.2.4/vertx-web-validation-4.2.4.jar!/io/vertx/ext/web/validation/builder/Bodies.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.adoc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/service/ValidationBodyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1099#1100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web/4.2.4/vertx-web-4.2.4.jar!/io/vertx/ext/web/impl/RouteState.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="898">
+          <caret line="553" selection-start-line="553" selection-end-line="553" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-auth-common/4.2.4/vertx-auth-common-4.2.4.jar!/io/vertx/ext/auth/authentication/AuthenticationProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/restapi/ItemRestApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/model/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="111" column="17" selection-start-line="111" selection-start-column="17" selection-end-line="111" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/verticle/MainVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/configuration/JwtConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/configuration/MongoConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/vertx/vertx-web-client/4.2.4/vertx-web-client-4.2.4.jar!/io/vertx/ext/web/client/WebClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="68" column="24" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jakubartlomiej/vertxRecruitmentTask/restapi/UserRestApiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="27" column="54" lean-forward="true" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jakubartlomiej/vertxRecruitmentTask/service/ItemServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/service/JwtTokenService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1456">
+          <caret line="95" column="49" selection-start-line="95" selection-start-column="49" selection-end-line="95" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/service/ApiResponseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-128">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/restapi/UserRestApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/config.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/verticle/WebVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/configuration/BrokerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/configuration/ConfigLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jakubartlomiej/vertxRecruitmentTask/TestWebVerticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="79" selection-start-line="20" selection-start-column="79" selection-end-line="20" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/service/ApiRequestService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jakubartlomiej/vertxRecruitmentTask/service/ItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,3 @@
+com\jakubartlomiej\vertxRecruitmentTask\model\Item.class
+com\jakubartlomiej\vertxRecruitmentTask\restapi\UserRestApi.class
+com\jakubartlomiej\vertxRecruitmentTask\MainVerticle.class
